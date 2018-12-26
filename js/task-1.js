@@ -38,7 +38,6 @@ var playList = [
 // }
 
 
-
 var list = document.getElementById("list");
   for(var j = 0; j < playList.length; j++)
   {
