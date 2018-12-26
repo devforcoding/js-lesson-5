@@ -1,2 +1,2 @@
-# js-lesson-5
+# DOM - js-lesson-5
 https://keybro.github.io/js-lesson-5/
