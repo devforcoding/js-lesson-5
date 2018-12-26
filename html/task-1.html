@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<body>
+<style>
+
+    ol{
+        counter-reset: myCounter;
+        font-family: Roboto, Arial, sans-serif;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    li:before {
+        counter-increment: myCounter;
+        content:counter(myCounter);
+        color: white;
+        background: #2980B9;
+        display: inline-block;
+        text-align: center;
+        margin: 5px 10px;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+    }
+</style>
+
+<ol id="list">
+
+</ol>
+
+<script src="../js/task-1.js"></script>
+</body>
+</html>
